@@ -2,10 +2,14 @@
     @copyright 2025 sanekofblack
     @licence Apache-2.0
 */
-
+/* шрифты на самом верху */
+/* @import url('https://fonts.googleapis.com/css2?family=Podkova:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@700&family=Poppins:wght@400;500;600;700;800&display=swap');
 @import 'tailwindcss';
 
 @import 'tw-animate-css';
+
+
 
 /*
     ---break---
@@ -87,6 +91,10 @@
   --color-sidebar-border: var(--sidebar-border);
 
   --color-sidebar-ring: var(--sidebar-ring);
+
+/* указываем шрифты 'Name', type (sans serif mono) */
+  --font-podkova: 'Podkova', sans-serif; 
+  --font-poppins: 'Poppins', sans-serif;
 }
 
 /*
@@ -260,8 +268,7 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
-    @apply font-serif;
+    @apply border-border outline-ring/50 font-poppins;
   }
   body {
     @apply bg-background 
@@ -290,7 +297,5 @@
     /* responsive for xl screen */
     2xl:max-w-screen-xl;
     /* responsive for xl screen */
-
-  
   }
 }
