@@ -7,7 +7,10 @@
 - shadcn ui
 - licude icons
   - npm install lucide-react
-
+- react-player - просмотр видео
+  - npm i react-player
+- motion
+  - npm install motion
 
 ---
 
