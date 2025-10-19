@@ -11,6 +11,9 @@
   - npm i react-player
 - motion
   - npm install motion
+- lenis - open-source library for scroll
+  - npm i lenis
+
 
 ---
 

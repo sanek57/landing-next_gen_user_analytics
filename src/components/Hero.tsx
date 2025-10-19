@@ -87,7 +87,7 @@ export const Hero = () => {
       <motion.div
         variants={heroVariant}
         initial='start'
-        animate='end'
+        animate='end' // отрабатывает единожды
         className='container text-center'
       >
         <div className='max-w-screen-md mx-auto'>

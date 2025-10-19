@@ -9,8 +9,6 @@
 
 @import 'tw-animate-css';
 
-
-
 /*
     ---break---
 */
@@ -92,8 +90,8 @@
 
   --color-sidebar-ring: var(--sidebar-ring);
 
-/* указываем шрифты 'Name', type (sans serif mono) */
-  --font-podkova: 'Podkova', sans-serif; 
+  /* указываем шрифты 'Name', type (sans serif mono) */
+  --font-podkova: 'Podkova', sans-serif;
   --font-poppins: 'Poppins', sans-serif;
 }
 
@@ -297,5 +295,48 @@
     /* responsive for xl screen */
     2xl:max-w-screen-xl;
     /* responsive for xl screen */
+  }
+
+  .section {
+    @apply py-8
+
+    /* responsive for md screen */
+    md:py-16;
+  }
+
+  .section-head {
+    @apply pb-8 text-center
+    
+    /* responsive for md screen */
+    md:pb-16
+    
+    /* responsive for lg screen */
+    lg:max-w-screen-sm
+    lg:mx-auto;
+  }
+
+  .section-subtitle {
+    @apply text-primary
+    text-sm
+    font-medium
+    uppercase;
+  }
+
+  .section-title {
+    @apply text-foreground
+    text-3xl
+    font-semibold
+    leading-snug
+    py-3
+
+    /* responsive for md screen */
+    md:text-[40px]
+  }
+
+  .section-text {
+    @apply text-muted-foreground
+
+    /* responsive for md screen */
+    md:text-xl
   }
 }
