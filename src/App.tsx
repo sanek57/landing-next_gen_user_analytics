@@ -6,6 +6,7 @@ import { Hero } from './components/Hero'
 
 // lenis - плавная прокрутка
 import { ReactLenis, useLenis } from 'lenis/react'
+import { Process } from './components/Process'
 
 function App() {
   const lenis = useLenis(lenis => {
@@ -20,7 +21,8 @@ function App() {
         <main>
           <Hero />
           <Brand />
-          <Feature/>
+          <Feature />
+          <Process />
         </main>
       </div>
     </ReactLenis>
