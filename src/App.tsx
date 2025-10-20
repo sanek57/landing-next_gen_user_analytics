@@ -11,6 +11,7 @@ import { Overview } from './components/Overview'
 import { Review } from './components/Review'
 import { Blog } from './components/Blog'
 import { Cta } from './components/Cta'
+import { Footer } from './components/Footer'
 
 function App() {
   const lenis = useLenis(lenis => {
@@ -31,6 +32,7 @@ function App() {
           <Review />
           <Blog />
           <Cta />
+          <Footer />
         </main>
       </div>
     </ReactLenis>
