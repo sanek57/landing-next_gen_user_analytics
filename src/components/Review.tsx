@@ -46,7 +46,7 @@ export const Review = () => {
           className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'
         >
           {reviewData.reviewCard.map(item => (
-            <motion.div key={item.title} variants={fadeInUp} className='mt-a'>
+            <motion.div key={item.title} variants={fadeInUp}>
               <Card className='relative h-full'>
                 <CardHeader>
                   <CardTitle className='text-lg'>{item.title}</CardTitle>
