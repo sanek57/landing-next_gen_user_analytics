@@ -8,6 +8,7 @@ import { Hero } from './components/Hero'
 import { ReactLenis, useLenis } from 'lenis/react'
 import { Process } from './components/Process'
 import { Overview } from './components/Overview'
+import { Review } from './components/Review'
 
 function App() {
   const lenis = useLenis(lenis => {
@@ -25,6 +26,7 @@ function App() {
           <Feature />
           <Process />
           <Overview />
+          <Review />
         </main>
       </div>
     </ReactLenis>
